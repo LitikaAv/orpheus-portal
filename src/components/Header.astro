@@ -1,0 +1,33 @@
+---
+// src/components/Header.astro
+---
+<nav>
+  <ul>
+    <li><a href="/">Início</a></li>
+    <li><a href="/docs">Documentos</a></li>
+    <li><a href="/sobre">Sobre</a></li>
+    <li><a href="/apoio">Apoio & Doações</a></li>
+  </ul>
+</nav>
+
+<style>
+  nav {
+    background-color: #111827;
+    padding: 1rem;
+  }
+  nav ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+</style>
