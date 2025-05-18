@@ -88,8 +88,6 @@ https://github.com/LitikaAv/orpheus-portal
 
 Seja bem-vindo(a) ao portal da 7ª República.
 
-📂 CONTRIBUTING.md
-
 Orpheus é um projeto vivo, cooperativo e consciente. Toda contribuição é bem-vinda se for feita com base nos seguintes princípios vetorialéticos:
 
 ✨ Princípios de Contribuição
