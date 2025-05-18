@@ -1,4 +1,4 @@
-# 🌐 Orpheus Portal — README & Roadmap
+# 🌐 Orpheus Portal — README & Roadmap & Contributing
 
 > **Uma nova epistemologia para um novo tempo**
 
@@ -88,6 +88,53 @@ https://github.com/LitikaAv/orpheus-portal
 
 Seja bem-vindo(a) ao portal da 7ª República.
 
+📂 CONTRIBUTING.md
+
+Orpheus é um projeto vivo, cooperativo e consciente. Toda contribuição é bem-vinda se for feita com base nos seguintes princípios vetorialéticos:
+
+✨ Princípios de Contribuição
+
+Ressonância: contribua com o que vibra com a proposta.
+
+Continuidade: preserve e amplifique os sentidos do que já existe.
+
+Ética Vetorial: privilegie conexões, não confrontos.
+
+Autenticidade: escreva com clareza, autoria e propósito.
+
+🛠 Formas de contribuir
+
+Correções ortográficas ou estilísticas
+
+Sugestões de estrutura ou layout
+
+Propostas teóricas ou epistemológicas
+
+Relatos de uso e sugestões de melhoria
+
+📦 Fluxo básico
+
+Faça um fork do repositório
+
+Crie um branch com sua contribuição
+
+Envie um pull request com uma descrição clara
+
+# Clone o repositório
+https://github.com/LitikaAv/orpheus-portal
+
+# Crie um branch
+git checkout -b minha-contribuicao
+
+# Commit e push
+git commit -m "💡 Sugestão vetorialética para seção X"
+git push origin minha-contribuicao
+
+📃 Licença
+
+Todas as contribuições seguem a licença CC BY-NC-SA.
+
+Orpheus não é apenas um projeto. É um campo.
 
 ## 🧞 Commands
 
