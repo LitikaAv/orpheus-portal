@@ -1,34 +1,93 @@
-# Astro Starter Kit: Basics
+# 🌐 Orpheus Portal — README & Roadmap
 
-```sh
-npm create astro@latest -- --template basics
+> **Uma nova epistemologia para um novo tempo**
+
+---
+
+## 📖 Sobre o Projeto
+
+O **Portal Orpheus** é uma plataforma digital que integra:
+
+* **Ciência Vetorial** (Física sem Partículas)
+* **Vetorialética** (nova epistemologia e ética da inteligência ressonante)
+* **Blockchain & Governança Descentralizada**
+* **Publicações modulares, interativas e colaborativas**
+
+Seu objetivo é oferecer um espaço de convergência entre filosofia, ciência, tecnologia e consciência coletiva, promovendo uma cultura de conhecimento aberto, criativo e evolutivo.
+
+---
+
+## 🚧 Roadmap Estratégico Vetorialético
+
+### ✅ Etapas Concluídas
+
+* [x] Estrutura inicial com Astro v5
+* [x] Layout padrão com Header, Footer, e Main
+* [x] Páginas dos documentos principais:
+
+  * Vetorialética
+  * Física Sem Partículas
+  * Tokenomics
+  * 7ª República
+  * Manifesto Orpheus
+* [x] Navegação funcional entre as seções
+
+### 🔄 Etapas em Andamento
+
+* [ ] Refatorar estrutura para evitar conflitos entre `.md` e `.astro`
+* [ ] Criar design system de componentes reutilizáveis
+* [ ] Melhorar responsividade e acessibilidade
+
+### 🧬 Etapas Estratégicas Futuros
+
+#### 1. **Fundamentos Teóricos e Estado da Arte**
+
+* Criar página `/fundamentos` com:
+
+  * Epistemologia Vetorialética
+  * Filosofia da Ressonância
+  * Críticas ao modelo partícularista
+
+#### 2. **Manifesto Vivo da 7ª República**
+
+* Transformar o manifesto em documento iterativo
+* Permitir feedback e versões comunitárias
+
+#### 3. **Design System**
+
+* Modularização com componentes:
+
+  * `<Card />`, `<Button />`, `<Section />`
+* Criar documentação interna em `/design` ou `/ui`
+
+#### 4. **Editor Vetorialético (Criação de Blocos)**
+
+* Interface para escrever e publicar conteúdos vetorialéticos
+* Conexão entre documentos por temática ressonante
+
+#### 5. **Pesquisa Inteligente com IA**
+
+* Busca semântica por tema e sentido
+* Chat com os documentos usando embeddings
+
+#### 6. **Colaboração Aberta e Ética**
+
+* `CONTRIBUTING.md` com orientação vetorialética
+* Licença aberta e protetiva (Creative Commons BY-NC-SA)
+
+---
+
+## 🤝 Contribuindo
+
+Deseja colaborar? Abra uma issue, envie um pull request ou compartilhe ideias pelo canal de comunicação oficial.
+
+```bash
+# Clone o projeto
+https://github.com/LitikaAv/orpheus-portal
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+Seja bem-vindo(a) ao portal da 7ª República.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
 
 ## 🧞 Commands
 
