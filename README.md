@@ -38,7 +38,7 @@ Seu objetivo é oferecer um espaço de convergência entre filosofia, ciência, 
 * [ ] Criar design system de componentes reutilizáveis
 * [ ] Melhorar responsividade e acessibilidade
 
-### 🧬 Etapas Estratégicas Futuros
+### 🧬 Etapas Estratégicas Futuras
 
 #### 1. **Fundamentos Teóricos e Estado da Arte**
 
@@ -50,6 +50,7 @@ Seu objetivo é oferecer um espaço de convergência entre filosofia, ciência, 
 
 #### 2. **Manifesto Vivo da 7ª República**
 
+* Criar página `/manifesto-vivo`
 * Transformar o manifesto em documento iterativo
 * Permitir feedback e versões comunitárias
 
@@ -60,20 +61,43 @@ Seu objetivo é oferecer um espaço de convergência entre filosofia, ciência, 
   * `<Card />`, `<Button />`, `<Section />`
 * Criar documentação interna em `/design` ou `/ui`
 
-#### 4. **Editor Vetorialético (Criação de Blocos)**
+#### 4. **Coleta de Feedback Vetorialético**
+
+* Ativar feedback por seção nos documentos
+* Canal discreto, sem ruído, com base em ressonância
+
+#### 5. **Editor Vetorialético (Criação de Blocos)**
 
 * Interface para escrever e publicar conteúdos vetorialéticos
 * Conexão entre documentos por temática ressonante
 
-#### 5. **Pesquisa Inteligente com IA**
+#### 6. **Pesquisa Inteligente com IA**
 
 * Busca semântica por tema e sentido
 * Chat com os documentos usando embeddings
 
-#### 6. **Colaboração Aberta e Ética**
+#### 7. **Colaboração Aberta e Ética**
 
 * `CONTRIBUTING.md` com orientação vetorialética
 * Licença aberta e protetiva (Creative Commons BY-NC-SA)
+
+#### 8. **Novas Páginas**
+
+* [ ] Criar páginas dedicadas:
+
+  * `/fundamentos`
+  * `/manifesto-vivo`
+
+#### 9. **Modularização do Layout**
+
+* [ ] Implementar componentes personalizados:
+
+  * `<Card />`
+  * `<Section />`
+
+#### 10. **Ativação de Feedback**
+
+* [ ] Coletar feedback direto nas páginas `.astro` e `.md`
 
 ---
 
@@ -88,36 +112,33 @@ https://github.com/LitikaAv/orpheus-portal
 
 Seja bem-vindo(a) ao portal da 7ª República.
 
+---
+
+## 📂 CONTRIBUTING.md
+
 Orpheus é um projeto vivo, cooperativo e consciente. Toda contribuição é bem-vinda se for feita com base nos seguintes princípios vetorialéticos:
 
-✨ Princípios de Contribuição
+### ✨ Princípios de Contribuição
 
-Ressonância: contribua com o que vibra com a proposta.
+* **Ressonância**: contribua com o que vibra com a proposta.
+* **Continuidade**: preserve e amplifique os sentidos do que já existe.
+* **Ética Vetorial**: privilegie conexões, não confrontos.
+* **Autenticidade**: escreva com clareza, autoria e propósito.
 
-Continuidade: preserve e amplifique os sentidos do que já existe.
+### 🛠 Formas de contribuir
 
-Ética Vetorial: privilegie conexões, não confrontos.
+* Correções ortográficas ou estilísticas
+* Sugestões de estrutura ou layout
+* Propostas teóricas ou epistemológicas
+* Relatos de uso e sugestões de melhoria
 
-Autenticidade: escreva com clareza, autoria e propósito.
+### 📦 Fluxo básico
 
-🛠 Formas de contribuir
+1. Faça um fork do repositório
+2. Crie um branch com sua contribuição
+3. Envie um pull request com uma descrição clara
 
-Correções ortográficas ou estilísticas
-
-Sugestões de estrutura ou layout
-
-Propostas teóricas ou epistemológicas
-
-Relatos de uso e sugestões de melhoria
-
-📦 Fluxo básico
-
-Faça um fork do repositório
-
-Crie um branch com sua contribuição
-
-Envie um pull request com uma descrição clara
-
+```bash
 # Clone o repositório
 https://github.com/LitikaAv/orpheus-portal
 
@@ -127,26 +148,12 @@ git checkout -b minha-contribuicao
 # Commit e push
 git commit -m "💡 Sugestão vetorialética para seção X"
 git push origin minha-contribuicao
+```
 
-📃 Licença
+### 📃 Licença
 
-Todas as contribuições seguem a licença CC BY-NC-SA.
+Todas as contribuições seguem a licença [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt-br).
 
-Orpheus não é apenas um projeto. É um campo.
+---
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+**Orpheus não é apenas um projeto. É um campo.**
